@@ -1,7 +1,7 @@
 # Shape-With-Orbitals
 
 
-# 3D Signal Processing Visualization
+### 3D Signal Processing Visualization
 
 This project visualizes the Fourier Transform principles by transforming a 2D drawing into a series of circular orbits. The visualization shows how complex shapes can be decomposed into simpler rotating circles, demonstrating the fundamentals of signal processing.
 
