@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/nicolaspanel/numjs@0.15.1/dist/numjs.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+</head>
+
+<body>
+  <main>
+    <div id="guides">
+      <div id="instructions">
+        Draw a shape to be converted to an orbit chain:
+      </div>
+      <div id="cycle-count-tools">
+        <label for="cycle-count">Number of orbits (drag/arrow keys to control):</label>
+        <input type="range" min="2" max="2" id="cycle-count">
+        <div id="current-cycle-count">Current cycle count: <span id="cycle-value">2</span></div>
+        <button id="clear-button">Clear Drawing</button>
+        <label for="color-picker">Select Cycle Color:</label>
+        <input type="color" id="color-picker" value="#ffead0">
+      </div>
+    </div>
+  </main>
+  <script src="sketch.js"></script>
+  <script src="page.js"></script>
+</body>
+
+</html>
